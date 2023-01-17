@@ -9,19 +9,30 @@
 
 > This repository provides a comprehensive and in-depth look at various data structures and algorithms in C++. It covers the fundamental concepts and principles behind each data structure and algorithm, as well as their implementation in C++. The repository includes detailed explanations, examples, and exercises to help you master the material. Whether you are a beginner or an experienced programmer, this repository will help you improve your skills and understanding of C++ data structures and algorithms.
 
-# Topics
+# How to get benefit from this repository 💻
+
+# Table of Content
 
 If you're interested in seeing what I can do with backnd (of MEN), you've come to the right place! [My](https://github.com/muhib7353/Cpp-Data-Structures-and-Algorithms-An-In-Depth-Look) Github repository is full of deep dive concepts that showcase my skills and experience with these powerful Data Structures and Algorithms . From simple demos to interview level concepts , I hope you'll find something here that inspires you.
 
-<!-- # Projects
+## Complexities and Big - O
 
-Welcome to C++ Data Structures and Algorithms !Inside, you'll find a wealth of knowledge on everything from the basics of C++ Data Structures and Algorithms to more advanced topics and best practices. Whether you're a beginner looking to learn more about backend or an experienced developer looking to improve your skills, I hope you'll find something here that's helpful and informative. -->
+DSA (Data Structure and Algorithms) is a fundamental concept in computer science that studies various data structures and algorithms. The complexity of these structures and algorithms can vary widely, making the understanding and analysis of DSA a complex task. Time and Space complexity are important factors in evaluating an algorithm's performance. Understanding and mastering these complexities is essential for building efficient software.
+
+- [Arrays]
+## Data Structures
+
+Data Structures are the way data is organized and stored in memory, fundamental in computer science and used in many fields. Examples include arrays, linked lists, trees, and graphs. Each has its own strengths and weaknesses, choosing the right one depends on the problem. Understanding and mastering them is essential for building efficient software.
+
+## Algorithums
+
+Algorithms are a set of instructions used to solve a problem. They are fundamental concepts in computer science and are used to perform various tasks such as sorting, searching, and optimization. Algorithms can be expressed in various forms such as pseudocode or actual programming language. The time and space complexity of an algorithm is important factors to evaluate its performance. Understanding and designing efficient algorithms is an essential part of computer science.
 
 # 20% OFF Extra
 
 > I'm excited to share these other resources and attached files with you! From tips and tricks to templates and tools, I hope these resources will help you boost your productivity and take your skills to the next level.
 
-- [Essential Commands](/EssentialCommands.md)
+- [Essential Guidance](/External-Guidance.md)
 
 # 🤝 Contributing
 
