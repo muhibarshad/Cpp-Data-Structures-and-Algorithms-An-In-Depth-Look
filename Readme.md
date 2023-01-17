@@ -13,15 +13,11 @@
 
 If you want to learn any topic, simply choose one from the available options and start gaining knowledge from the provided resources on about that topic you choosed.
 
-## Deeply Discussed Provided Resources are like for every topic
-
+## Every Topic contain these provided resources in depth
 
 <div align="center">
-  <img src="dsa_logo.webp">
+  <img src="content.png">
 </div>
-
-
-
 
 # Table of Content 📄
 
