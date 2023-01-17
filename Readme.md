@@ -63,7 +63,7 @@ Algorithms are a set of instructions used to solve a problem. They are fundament
 
 > I'm excited to share these other resources and attached files with you! From tips and tricks to templates and tools, I hope these resources will help you boost your productivity and take your skills to the next level.
 
-- [Essential Guidance](/External-Guidance.md)
+- [Essential Guidance](/04_SideConcepts/External-Guidance.md)
 
 # 🤝 Contributing
 
