@@ -27,29 +27,37 @@ If you're interested in seeing what I can do with backnd (of MEN), you've come t
 
 DSA (Data Structure and Algorithms) is a fundamental concept in computer science that studies various data structures and algorithms. The complexity of these structures and algorithms can vary widely, making the understanding and analysis of DSA a complex task. Time and Space complexity are important factors in evaluating an algorithm's performance. Understanding and mastering these complexities is essential for building efficient software.
 
-- [Time Complexity](/0_Complexities/Time%20Complexity/)
-- [Space Complexity](/0_Complexities/Time%20Complexity/)
-- [Big-O Notation](/0_Complexities/Big%20O%20Notations/)
+- [Time Complexity](/00_Complexities/Time%20Complexity/)
+- [Space Complexity](/00_Complexities/Time%20Complexity/)
+- [Big-O Notation](/00_Complexities/Big%20O%20Notations/)
 
 ## Data Structures 💻
 
 Data Structures are the way data is organized and stored in memory, fundamental in computer science and used in many fields. Examples include arrays, linked lists, trees, and graphs. Each has its own strengths and weaknesses, choosing the right one depends on the problem. Understanding and mastering them is essential for building efficient software.
 
-- [Array](/1_Data%20Structures/Linear-Data-Structures/01_Array/)
-- [String](/1_Data%20Structures/Linear-Data-Structures/02_String/)
-- [Linked List](/1_Data%20Structures/Linear-Data-Structures/03_Linked%20List/)
-- [Stack](/1_Data%20Structures/Linear-Data-Structures/03_Linked%20List/)
-- [Queue](/1_Data%20Structures/Linear-Data-Structures/05_Queues/)
-- [Heap](/1_Data%20Structures/Linear-Data-Structures/06_Heap/)
-- [Grid](/1_Data%20Structures/Linear-Data-Structures/07_Grid/)
+## Linear Data Structures
+
+- [Array](/01_Data%20Structures/Linear-Data-Structures/01_Array/)
+- [String](/01_Data%20Structures/Linear-Data-Structures/02_String/)
+- [Linked List](/01_Data%20Structures/Linear-Data-Structures/03_Linked%20List/)
+- [Stack](/01_Data%20Structures/Linear-Data-Structures/03_Linked%20List/)
+- [Queue](/01_Data%20Structures/Linear-Data-Structures/05_Queues/)
+- [Heap](/01_Data%20Structures/Linear-Data-Structures/06_Heap/)
+- [Grid](/01_Data%20Structures/Linear-Data-Structures/07_Grid/)
+
+## Non Linear Data Structures
+
+- [Tree](/01_Data%20Structures/Non-Linear-Data-Structures/01_Trees/)
+- [Graph](/01_Data%20Structures/Non-Linear-Data-Structures/02_Graphs/)
+- [Hash Table](/01_Data%20Structures/Non-Linear-Data-Structures/03_Hash%20Tables/)
 
 ## Algorithums ♾️
 
 Algorithms are a set of instructions used to solve a problem. They are fundamental concepts in computer science and are used to perform various tasks such as sorting, searching, and optimization. Algorithms can be expressed in various forms such as pseudocode or actual programming language. The time and space complexity of an algorithm is important factors to evaluate its performance. Understanding and designing efficient algorithms is an essential part of computer science.
 
-- [Tree](/1_Data%20Structures/Non-Linear-Data-Structures/01_Trees/)
-- [Graph](/1_Data%20Structures/Non-Linear-Data-Structures/02_Graphs/)
-- [Hash Table](/1_Data%20Structures/Non-Linear-Data-Structures/03_Hash%20Tables/)
+- [Sorting](/02_Algorithums/01_Sorting/)
+- [Searching](/02_Algorithums/02_Searching/)
+- [Recusrion](/02_Algorithums/03_Recusrion/)
 
 # 20% OFF Extra
 
