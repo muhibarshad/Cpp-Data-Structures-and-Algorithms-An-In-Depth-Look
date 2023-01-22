@@ -16,33 +16,23 @@ Time:22 Jan,2022 _14:38
 #include <string>
 using namespace std;
 int Length = 0;
+
+//===============NODE=================
 class ListItem
 {
-
 public:
     int id;
     string item;
     ListItem *nextAdd;
-    ListItem()
-    {
-        id = 0;
-        item = "";
-        nextAdd = NULL;
-    }
-    ~ListItem()
-    {
-        cout << "Deleted....\n";
-    }
+    ListItem() : id(0), item(""), nextAdd(NULL) {}
 };
+//===============MENU_DRIVEN_LAYOUT=================
 class Layout
 {
     int choosedOption;
 
 public:
-    Layout()
-    {
-        choosedOption = 0;
-    }
+    Layout() : choosedOption(0) {}
     virtual int page()
     {
         defaultPadding();
@@ -73,11 +63,14 @@ public:
         defaultLeftPadding();
     }
 };
+//===============ADD_PAGE_LAYOUT================
+
 class AddPage : public Layout
 {
     int addOption;
 
 public:
+    AddPage() : addOption(0) {}
     int page()
     {
         system("clear");
@@ -87,28 +80,26 @@ public:
         {
             return 1;
         }
-        if (Length != 0)
+        defaultPadding();
+        cout << "Enter 1. To add at start of list\n";
+        defaultLeftPadding();
+        cout << "Enter 2. To add at bottom of list \n";
+        if (Length >= 2)
         {
-            defaultPadding();
-            cout << "Enter 1. To add at start of list\n";
             defaultLeftPadding();
-            cout << "Enter 2. To add at bottom of list \n";
-            if (Length >= 2)
-            {
-                defaultLeftPadding();
-                cout << "Enter 3. To add at any middle position of list \n";
-            }
+            cout << "Enter 3. To add at any middle position of list \n";
         }
-
         cin >> addOption;
         return addOption;
     }
 };
+//===============DONE_PAGE_LAYOUT=================
 class DonePage : public Layout
 {
     int doneOption;
 
 public:
+    DonePage() : doneOption(0) {}
     int page()
     {
         system("clear");
@@ -120,49 +111,61 @@ public:
         return doneOption;
     }
 };
+//===============MAIN_APPLICATION_CLASS=================
 class TodoList_Application : public Layout
 {
+    int addType;
+    int removedID;
+    Layout *layout;
     ListItem *head;
     ListItem *tail;
-    int addType;
-    Layout *layout;
-    int removedID;
-    int currPage;
 
 public:
-    TodoList_Application()
+    TodoList_Application() : head(NULL), tail(NULL)
     {
-        head = tail = NULL;
         layout = new Layout();
         applicationNavigation();
     }
     void applicationNavigation()
     {
+        bool currPage = true;
         do
         {
-            currPage = layout->page();
-            if (currPage == 1)
+            switch (layout->page())
+            {
+            case 0:
+            {
+                cout << "Quiting...........\n";
+                currPage = false;
+                break;
+            }
+            case 1:
             {
                 layout = new AddPage();
                 addType = layout->page();
                 add();
                 layout = new Layout;
                 system("clear");
+                break;
             }
-            if (currPage == 2)
+            case 2:
             {
                 layout = new DonePage();
+                display();
                 removedID = layout->page();
                 done();
                 layout = new Layout;
                 system("clear");
+                break;
             }
-            if (currPage == 3)
+            case 3:
             {
                 system("clear");
                 display();
+                break;
             }
-        } while (currPage != 0);
+            }
+        } while (currPage);
     }
     void add()
     {
@@ -191,17 +194,14 @@ public:
             Length = length();
             return;
         }
-        else
-        {
-            ListItem *newItem = new ListItem;
-            defaultPadding();
-            cout << "Enter the list item: ";
-            cin.ignore();
-            getline(cin, newItem->item);
-            newItem->nextAdd = head;
-            head = newItem;
-            Length = length();
-        }
+        ListItem *newItem = new ListItem;
+        defaultPadding();
+        cout << "Enter the list item: ";
+        cin.ignore();
+        getline(cin, newItem->item);
+        newItem->nextAdd = head;
+        head = newItem;
+        Length = length();
     }
     void addItemAtEnd()
     {
@@ -213,20 +213,16 @@ public:
             cin.ignore();
             getline(cin, tail->item);
             Length = length();
-
             return;
         }
-        else
-        {
-            ListItem *newItem = new ListItem;
-            defaultPadding();
-            cout << "Enter the list item: ";
-            cin.ignore();
-            getline(cin, newItem->item);
-            tail->nextAdd = newItem;
-            tail = newItem;
-            Length = length();
-        }
+        ListItem *newItem = new ListItem;
+        defaultPadding();
+        cout << "Enter the list item: ";
+        cin.ignore();
+        getline(cin, newItem->item);
+        tail->nextAdd = newItem;
+        tail = newItem;
+        Length = length();
     }
     void addItemAtMiddle()
     {
@@ -321,10 +317,6 @@ public:
             count++;
         }
         return count;
-    }
-    ~TodoList_Application()
-    {
-        cout << "Application Terminated Successfully....\n";
     }
 };
 
