@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.sh": "bat",
+        "new": "cpp",
+        "ostream": "cpp"
+    }
+}
