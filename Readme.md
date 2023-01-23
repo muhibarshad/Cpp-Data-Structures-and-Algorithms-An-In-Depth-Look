@@ -27,9 +27,9 @@ If you're interested in seeing what I can do with backnd (of MEN), you've come t
 
 DSA (Data Structure and Algorithms) is a fundamental concept in computer science that studies various data structures and algorithms. The complexity of these structures and algorithms can vary widely, making the understanding and analysis of DSA a complex task. Time and Space complexity are important factors in evaluating an algorithm's performance. Understanding and mastering these complexities is essential for building efficient software.
 
-- [Time Complexity](/00_Complexities/Time%20Complexity/)
-- [Space Complexity](/00_Complexities/Time%20Complexity/)
-- [Big-O Notation](/00_Complexities/Big%20O%20Notations/)
+- [Big-O Notation](/00_Complexities/00_Big%20O%20Notations/)
+- [Time Complexity](/00_Complexities/01_Time%20Complexity/)
+- [Space Complexity](/00_Complexities/02_Space%20Complexity/)
 
 ## Data Structures 💻
 
