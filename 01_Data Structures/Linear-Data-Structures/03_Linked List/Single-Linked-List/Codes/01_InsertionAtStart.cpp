@@ -32,7 +32,7 @@ int main()
     Node *node1 = new Node(20);
     Node *head = node1;
     InsertAtStart(head, 30);
-    print(head); // 30,20
+   
 
   
     return 0;

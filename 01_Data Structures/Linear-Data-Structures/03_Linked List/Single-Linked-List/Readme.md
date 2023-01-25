@@ -64,6 +64,13 @@ public:
 ```
 The Above code  represents a singly linked list with classes. The class **LinkList** has a private inner class **ListNode** that represents a single node in the list, which has a constructor that initializes the next pointer to `NULL`. The outer class **LinkList** has three private members: a pointer `head` to the first node in the list, a pointer `tail` to the last node in the list and a constructor that initializes the head and tail pointers to `NUL`L. The class also has a `destructor` that iterates through the list, starting at the head, and deletes each `node`, releasing memory.
 
+## Operations 
+we can do Following operations with singly list.
+- [Insertion:At Start](/01_Data%20Structures/Linear-Data-Structures/03_Linked%20List/Single-Linked-List/Codes/01_InsertionAtStart.cpp)
+- [Traverse List](/01_Data%20Structures/Linear-Data-Structures/03_Linked%20List/Single-Linked-List/Codes/02_Traverse.cpp)
+- [Insertion:At Last](/01_Data%20Structures/Linear-Data-Structures/03_Linked%20List/Single-Linked-List/Codes/03_InsertAtEnd.cpp)
+- [Insertion:At any position](/01_Data%20Structures/Linear-Data-Structures/03_Linked%20List/Single-Linked-List/Codes/04_InsertAtAnyPositionLikeMiddle.cpp)
+- [Deletion: Any Node](/01_Data%20Structures/Linear-Data-Structures/03_Linked%20List/Single-Linked-List/Codes/05_DeleteAnyNode.cpp)
 
 
 
