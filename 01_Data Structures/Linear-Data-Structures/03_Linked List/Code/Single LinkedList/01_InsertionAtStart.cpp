@@ -43,11 +43,11 @@ int main()
     InsertAtStart(head, 30);
     print(head); // 30,20
 
-    // while (head != NULL)
-    // {
-    //     delete head;
-    //     head = head->next;
-    // }
+    while (head != NULL)
+    {
+        delete head;
+        head = head->next;
+    }
 
     return 0;
 }
