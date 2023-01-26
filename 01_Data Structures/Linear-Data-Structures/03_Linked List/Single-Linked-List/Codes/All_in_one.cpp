@@ -100,7 +100,7 @@ public:
             }
             else
             {
-                // throw exception("Out of range");
+                 throw exception("Out of range");
             }
         }
         catch (exception e)
