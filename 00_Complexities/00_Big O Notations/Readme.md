@@ -26,7 +26,7 @@ Here are a few examples of common time complexities:
 
 
 ![Big O Graph](https://media.geeksforgeeks.org/wp-content/cdn-uploads/mypic.png)
-When n is the input size and c is a positive constant
+        When n is the input size and c is a positive constant
 
 <br>
 
