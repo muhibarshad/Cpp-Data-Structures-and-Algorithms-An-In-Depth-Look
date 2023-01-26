@@ -19,13 +19,13 @@ One of the most basic ways to understand `space complexity` is to consider the *
 <p align="center">
     <img src="/05_Material/CodeSnaps/spacecomplexity-1.png" style="height: 40vh; padding-left: 50vh;">
     
-     </p>
+ </p>
 In this example, the `space complexity` is `O(1)` because the **size** of the array is **fixed**, and it does not depend on the **size** of the input. Here, the array is defined with a fixed **size** of 10 elements, so the `space complexity` of this program is **constant**.
 
 <p align="center">
     <img src="/05_Material/CodeSnaps/spacecomplexity-2.png" style="height: 40vh; padding-left: 50vh;">
     
-     </p>
+ </p>
 
 In this example, the `space complexity` is `O(n)` where n is the number of elements in the `linked list`. This is because the amount of memory required for the `linked list` increases as the number of elements increases. Each element in the linked list requires memory for the **data** and the **pointer** to the next element, and the amount of memory required is directly proportional to the number of elements
 
@@ -34,14 +34,14 @@ In this example, the `space complexity` is `O(n)` where n is the number of eleme
 <p align="center">
     <img src="/05_Material/CodeSnaps/spacecomplexity-3.png" style="height: 40vh; padding-left: 50vh;">
     
-     </p>
+</p>
 
 In this example, the function creates 1000 integer variables, each taking up `sizeof(int)` bytes of memory. The `space complexity` of this function is O(n), where n is the number of variables created, in this case, n = 1000.
 
 <p align="center">
     <img src="/05_Material/CodeSnaps/spacecomplexity-4.png" style="height: 40vh; padding-left: 50vh;">
     
-     </p>
+</p>
 In this example, the function creates n objects of **SomeClass**, each object takes up `sizeof(SomeClass)` bytes of memory. The `space complexity` of this function is `O(n)`, where n is the number of objects created.
 
 #### Special Reminder👀
@@ -55,7 +55,7 @@ In this example, the function creates n objects of **SomeClass**, each object ta
 <p align="center">
     <img src="/05_Material/CodeSnaps/spacecomplexity-5.png" style="height: 40vh; padding-left: 50vh;">
     
-     </p>
+ </p>
 In this example, the `space complexity` is `O(n)`, where n is the input parameter passed to the factorial function. This is because each **recursive call** creates a new level on the **call stack**, and the maximum depth of the recursion is equal to the input parameter.
 
 ### Bonus Point
