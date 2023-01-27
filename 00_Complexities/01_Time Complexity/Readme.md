@@ -80,7 +80,7 @@ It's always important to test the algorithm with different inputs and different 
 Like ,
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/time4.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/05_Material/CodeSnaps/time4.png" style="height: 60vh; padding-left: 70vh;">
  </p>
 
 - The time complexity of **T=2n** and **T=cn** both are same even c = 100000000000 Consuming part is n
