@@ -33,6 +33,14 @@ The variable `arr` is an array of integers with a size of 5. It is an `lvalue`, 
 
 In **summary**, `arr` and `&arr` are **different variables** with **different types** and behaviors, `arr` is a pointer to the first element of the array and &arr is a pointer to the entire array, they may have the same memory address but you can't use them in the same way.
 
+### Task for You?
+>Run it in your compiler for further clarification
+
+**std::cout << *(arr+1) << std::endl;**
+
+**std::cout << *(&arr+1) << std::endl;**
+
+
 <p align="center">
     <img src="/05_Material/CodeSnaps/arrayoutside.png" style="height: 70vh; padding-left: 90vh;">
     
@@ -55,7 +63,7 @@ There are two ways to calculate the size of an array
 ## Arrays with functions
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/array-9.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/05_Material/CodeSnaps/array-9.png" style="height: 60vh; padding-left: 70vh;">
     
 </p>
 
@@ -86,7 +94,7 @@ When an `array` is passed as a parameter to a function, a `pointer` to the first
 1. It is not possible to determine the size of a `static array` at **runtime** using the traditional method, however, using the concept of a `constant array size`, the size of a `static array` can be obtained during **runtime**. This allows for the `dynamic allocation of memory` for a `static` array, enabling its size to be determined and modified at **runtime**.
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/array-1.png" style="height: 30vh; padding-left: 30vh;">
+    <img src="/05_Material/CodeSnaps/array-11.png" style="height: 30vh; padding-left: 40vh;">
     
 </p>
 
