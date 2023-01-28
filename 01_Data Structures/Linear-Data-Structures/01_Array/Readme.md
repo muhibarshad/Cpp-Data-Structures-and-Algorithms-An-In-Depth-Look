@@ -40,7 +40,7 @@ There are two ways to calculate the size of an array
 ## Arrays with functions
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/array-8.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/05_Material/CodeSnaps/array-9.png" style="height: 40vh; padding-left: 50vh;">
     
 </p>
 

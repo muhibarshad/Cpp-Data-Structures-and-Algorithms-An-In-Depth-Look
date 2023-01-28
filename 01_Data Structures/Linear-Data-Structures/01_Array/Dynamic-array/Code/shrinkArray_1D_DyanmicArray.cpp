@@ -1,5 +1,8 @@
 /*Write a C++ program to shrink the one dimensional dyanmic array*/
+/*Author :@haiderali780
 
+Time:28 Jan,2022 _6:01
+*/
 #include <iostream>
 
 using namespace std;
