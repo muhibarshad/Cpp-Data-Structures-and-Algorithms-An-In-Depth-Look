@@ -5,18 +5,36 @@
 ## What does array name means?
 
 
+
 <p align="center">
     <img src="/05_Material/CodeSnaps/array-6.png" style="height: 30vh; padding-left: 40vh;">
     
 </p>
 
 
-The variable `arr` is a `pointer` that points to the first element in the `array`. This is the memory address where the first element is stored.This memory address is used to point to the beginning of the array and can be used to iterate through the elements of the array. You can also access the first element by using the `dereference operator` **(\*arr)** or by using the `subscript operator` **(arr[0] or 0[arr])**.
+
+`arr` is a variable of type `int*` **(pointer to int)**, which holds the memory address of the first element of an array. The variable arr can be used to access the elements of the array, for example, you can use `arr[i]`  or `i[arr]` to access the **i-th** element of the array or `*(arr+i)`  to access the **i-th** element of the array. Also you can use pointer arithmetic to move through the `array`, for example `arr + 2` will point to the third element of the array
+
+## What does &array name means?
+
+
+
+<p align="center">
+    <img src="/05_Material/CodeSnaps/&arr.png" style="height: 30vh; padding-left: 30vh;">
+    
+</p>
+
+
+
+`&arr` is a variable of type int `(*)[5]`, which holds the memory address of the **entire array**. The variable `&arr` can be used to get the size of the `array`, for example, `sizeof(&arr)` will return the size of the entire array. However, you cannot access the elements of the `array` using `&arr` directly, instead you need to use `&arr[i]` to access the **i-th** element of the array. Also you can't use pointer arithmetic to move through the `array`, for example `&arr + 2` will not point to the third element of the array.
+
+
 
 ## The difference between 'arr' and '&arr'
 
-- 'arr' refers to the array itself and the memory location of the first element of the array.'arr' can be used to access the elements of the array
-- '&arr' is the memory address of the array, which is a pointer to the first element of the array. Using the '&' operator before a variable's name, it gives the memory address of that variable.'&arr' can be used to obtain the memory location of the array
+It is important to note that when arr is used in an expression, it is implicitly converted to a pointer to the first element of the array, which is why it has the same memory address as &arr[0]. Similarly, when &arr is used in an expression, it is implicitly converted to a pointer to the array, which is why it has the same memory address as arr. However, when you use *(arr) it will give you the value of the first element of the array, and when you use *(&arr) it will give you the entire array.
+
+
 
 
 <p align="center">
@@ -25,7 +43,11 @@ The variable `arr` is a `pointer` that points to the first element in the `array
 </p>
 
 
+
 The variable `arr` is an array of integers with a size of 5. It is an `lvalue`, meaning it can be used on the left side of an assignment. `&arr` is a pointer to the array object, an `rvalue` with the value of the memory address of the array. They point to the same location in memory. To differentiate, compare `*(arr)` and `*(&arr)`. The first is an `lvalue` of type int and the second an `lvalue` of type int [5].
+
+In **summary**, `arr` and `&arr` are **different variables** with **different types** and behaviors, `arr` is a pointer to the first element of the array and &arr is a pointer to the entire array, they may have the same memory address but you can't use them in the same way.
+
 
 
 
@@ -34,6 +56,7 @@ The variable `arr` is an array of integers with a size of 5. It is an `lvalue`, 
     <img src="/05_Material/CodeSnaps/arrayoutside.png" style="height: 70vh; padding-left: 90vh;">
     
 </p>
+
 
 
 
