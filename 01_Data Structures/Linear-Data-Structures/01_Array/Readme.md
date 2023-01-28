@@ -54,3 +54,14 @@ When an `array` is passed as a parameter to a function, a `pointer` to the first
 
 1. [Fixed-size arrays](/01_Data%20Structures/Linear-Data-Structures/01_Array/Static-array/Readme.md)
 2. [Dynamic arrays](/01_Data%20Structures/Linear-Data-Structures/01_Array/Dynamic-array/Readme.md)
+
+## Sorting Algorithms
+
+1. [Bubble Sort](/01_Data%20Structures/Linear-Data-Structures/01_Array/Code/bubble-sort.cpp)
+2. [Selection Sort](/01_Data%20Structures/Linear-Data-Structures/01_Array/Code/selection-sort.cpp)
+3. [Insertion Sort](/01_Data%20Structures/Linear-Data-Structures/01_Array/Code/insertion-sort.cpp)
+
+## Searching in Array
+
+- [Linear search](/01_Data%20Structures/Linear-Data-Structures/01_Array/Code/linear-search.cpp)
+- [Binary search](/01_Data%20Structures/Linear-Data-Structures/01_Array/Code/binary-search.cpp)
