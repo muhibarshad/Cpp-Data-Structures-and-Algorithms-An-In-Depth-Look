@@ -22,7 +22,7 @@
 
 ## The difference between 'arr' and '&arr'
 
-It is important to note that when `arr` is used in an expression, it is implicitly converted to a **pointer to the first element** of the array, which is why it has the same memory address as `&arr[0]`. Similarly, when `&arr` is used in an expression, it is implicitly converted to a **pointer to the array**, which is why it has the **same memory address** as arr. However, when you use _(arr) it will give you the value of the first element of the array, and when you use _(&arr) it will give you the entire array.
+It is important to note that when `arr` is used in an expression, it is implicitly converted to a **pointer to the first element** of the array, which is why it has the same memory address as `&arr[0]`. Similarly, when `&arr` is used in an expression, it is implicitly converted to a **pointer to the array**, which is why it has the **same memory address** as arr. However, when you use *(arr) it will give you the value of the first element of the array, and when you use *(&arr) it will give you the entire array.
 
 <p align="center">
     <img src="/05_Material/CodeSnaps/array-7.png" style="height: 30vh; padding-left: 40vh;">
