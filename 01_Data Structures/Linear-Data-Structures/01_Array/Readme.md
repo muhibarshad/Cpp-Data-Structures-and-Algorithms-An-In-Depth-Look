@@ -18,11 +18,11 @@
     
 </p>
 
-`&arr` is a variable of type int `(*)[5]`, which holds the memory address of the **entire array**. The variable `&arr` can be used to get the size of the `array`, for example, `sizeof(&arr)` will return the size of the entire array. However, you cannot access the elements of the `array` using `&arr` directly, instead you need to use `&arr[i]` to access the **i-th** element of the array. Also you can't use pointer arithmetic to move through the `array`, for example `&arr + 2` will not point to the third element of the array.
+`&arr` is a variable of type int `(*)[5]`, which holds the memory address of the **entire array**. The variable `&arr` can be used to get the size of the `array`. However, you cannot access the elements of the `array` using `&arr` directly, instead you need to use `&arr[i]` to access the **i-th** element of the array. Also you can't use pointer arithmetic to move through the `array`, for example `&arr + 2` will not point to the third element of the array.
 
-## The difference between 'arr' and '&arr'
+## The difference between arr and &arr
 
-It is important to note that when `arr` is used in an expression, it is implicitly converted to a **pointer to the first element** of the array, which is why it has the same memory address as `&arr[0]`. Similarly, when `&arr` is used in an expression, it is implicitly converted to a **pointer to the array**, which is why it has the **same memory address** as arr. However, when you use *(arr) it will give you the value of the first element of the array, and when you use *(&arr) it will give you the entire array.
+It is important to note that when `arr` is used in an expression, it is implicitly converted to a **pointer to the first element** of the array, which is why it has the same memory address as `&arr[0]`. Similarly, when `&arr` is used in an expression, it is implicitly converted to a **pointer to the array**, which is why it has the **same memory address** as arr. However, when you use `*(arr)` it will give you the value of the first element of the array, and when you use `*(&arr)` it will give you the entire array.
 
 <p align="center">
     <img src="/05_Material/CodeSnaps/array-7.png" style="height: 30vh; padding-left: 40vh;">
