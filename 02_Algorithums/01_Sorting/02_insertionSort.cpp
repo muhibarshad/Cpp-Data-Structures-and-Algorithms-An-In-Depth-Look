@@ -4,7 +4,7 @@
  * @brief Create a function named void insertion_sort.
 With parameters array itself and its size.
 This function must insertion_sort the array
-which is passed as a parameter.
+which is passed as a parameter...
 Also, create a function printArray which will
 print your insertion_sorted array.
 Note:
