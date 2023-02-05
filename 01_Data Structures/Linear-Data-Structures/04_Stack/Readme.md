@@ -73,3 +73,27 @@ An `array` can be declared either as a `static` or `dynamic array`, and can be d
 
 ### 2. Using Link List
 A linked list is a data structure that consists of a sequence of nodes, where each node has a reference (a "link") to the next node in the list. The first node in the list is referred to as the "head" of the list, and the last node in the list typically has a reference to a null or special value to indicate the end of the list. In this article, we will discuss the implementation of a stack using a linked list data structure.
+
+#### Operations for stack
+
+**push**
+<p align="center">
+    <img src="/05_Material/CodeSnaps/stack-2.png" style="height: 60vh; padding-left: 70vh;">
+ </p>
+
+- **pop**
+<p align="center">
+    <img src="/05_Material/CodeSnaps/stack-3.png" style="height: 30vh; padding-left: 40vh;">
+ </p>
+
+- **peek**
+<p align="center">
+    <img src="/05_Material/CodeSnaps/stack-4.png" style="height: 40vh; padding-left: 50vh;">
+ </p>
+
+- **isEmpty**
+<p align="center">
+    <img src="/05_Material/CodeSnaps/stack-5.png" style="height: 40vh; padding-left: 50vh;">
+ </p>
+
+ 
