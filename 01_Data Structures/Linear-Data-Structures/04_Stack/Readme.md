@@ -93,7 +93,7 @@ A linked list is a data structure that consists of a sequence of nodes, where ea
 
 - **isEmpty**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-8.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/05_Material/CodeSnaps/stack-8.png" style="height: 40vh; padding-left: 30vh;">
  </p>
 
 
