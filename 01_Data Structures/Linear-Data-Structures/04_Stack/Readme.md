@@ -78,22 +78,33 @@ A linked list is a data structure that consists of a sequence of nodes, where ea
 
 **push**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-2.png" style="height: 60vh; padding-left: 70vh;">
+    <img src="/05_Material/CodeSnaps/stack-7.png" style="height: 60vh; padding-left: 70vh;">
  </p>
 
 - **pop**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-3.png" style="height: 30vh; padding-left: 40vh;">
+    <img src="/05_Material/CodeSnaps/stack-6.png" style="height: 30vh; padding-left: 40vh;">
  </p>
 
 - **peek**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-4.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/05_Material/CodeSnaps/stack-9.png" style="height: 40vh; padding-left: 50vh;">
  </p>
 
 - **isEmpty**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-5.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/05_Material/CodeSnaps/stack-8.png" style="height: 40vh; padding-left: 50vh;">
  </p>
 
- 
+
+#### Advantages of stack implementation using arrays:
+
+- The stack size can be adjusted dynamically based on the current number of elements in the stack, allowing for efficient memory utilization.
+- The linked list implementation can handle an arbitrary number of elements, making it a good choice for implementing stacks with unknown or variable sizes.
+- Linked lists are relatively straightforward to implement compared to arrays, especially for stacks that grow and shrink dynamically.
+
+#### Disadvantages of stack implementation using arrays:
+
+- Linked lists have slower access time compared to arrays due to the need to traverse the list to find a specific element.
+- Linked lists have a higher overhead in terms of memory utilization due to the need to store references to the next node for each node in the list.
+
