@@ -70,3 +70,6 @@ An `array` can be declared either as a `static` or `dynamic array`, and can be d
 - Fixed size, can't grow dynamically
 - Wasteful of memory if stack size is much larger than needed
 - Need to handle stack overflow by manually checking size before each push operation
+
+### 2. Using Link List
+A linked list is a data structure that consists of a sequence of nodes, where each node has a reference (a "link") to the next node in the list. The first node in the list is referred to as the "head" of the list, and the last node in the list typically has a reference to a null or special value to indicate the end of the list. In this article, we will discuss the implementation of a stack using a linked list data structure.
