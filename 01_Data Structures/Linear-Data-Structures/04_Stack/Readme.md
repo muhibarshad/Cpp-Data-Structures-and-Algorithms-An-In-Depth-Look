@@ -96,6 +96,10 @@ A `linked list` is a data structure that consists of a sequence of **nodes**, wh
     <img src="/05_Material/CodeSnaps/stack-8.png" style="height: 30vh; padding-left: 30vh;">
  </p>
 
+- **Display**
+<p align="center">
+    <img src="/05_Material/CodeSnaps/stack-10.png" style="height: 40vh; padding-left: 50vh;">
+ </p>
 
 #### Advantages of stack implementation using arrays:
 
