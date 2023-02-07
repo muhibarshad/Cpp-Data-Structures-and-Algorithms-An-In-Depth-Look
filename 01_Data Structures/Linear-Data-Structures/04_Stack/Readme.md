@@ -83,12 +83,12 @@ A `linked list` is a data structure that consists of a sequence of **nodes**, wh
 
 - **pop**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-6.png" style="height: 60vh; padding-left: 50vh;">
+    <img src="/05_Material/CodeSnaps/stack-6.png" style="height: 50vh; padding-left: 50vh;">
  </p>
 
 - **peek**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-9.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/05_Material/CodeSnaps/stack-9.png" style="height: 30vh; padding-left: 50vh;">
  </p>
 
 - **isEmpty**
