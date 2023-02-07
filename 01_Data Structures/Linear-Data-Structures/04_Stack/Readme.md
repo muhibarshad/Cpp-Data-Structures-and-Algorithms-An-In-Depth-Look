@@ -78,12 +78,12 @@ A `linked list` is a data structure that consists of a sequence of **nodes**, wh
 
 - **push**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-7.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/05_Material/CodeSnaps/stack-7.png" style="height: 30vh; padding-left: 50vh;">
  </p>
 
 - **pop**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-6.png" style="height: 50vh; padding-left: 50vh;">
+    <img src="/05_Material/CodeSnaps/stack-6.png" style="height: 40vh; padding-left: 50vh;">
  </p>
 
 - **peek**
@@ -98,7 +98,7 @@ A `linked list` is a data structure that consists of a sequence of **nodes**, wh
 
 - **Display**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-10.png" style="height: 60vh; padding-left: 50vh;">
+    <img src="/05_Material/CodeSnaps/stack-10.png" style="height: 50vh; padding-left: 50vh;">
  </p>
 
 #### Advantages of stack implementation using arrays:
