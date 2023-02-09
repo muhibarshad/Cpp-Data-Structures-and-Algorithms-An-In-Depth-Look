@@ -10,7 +10,7 @@ print your insertion_sorted array.
 Note:
 Both functions must be called in the main
 with the correct output. The false output will be
-graded as zero.............
+graded as zero................
  * @date 2023-01-26
  */
 #include <iostream>
