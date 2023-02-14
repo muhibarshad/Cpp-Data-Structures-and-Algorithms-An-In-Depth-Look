@@ -1,6 +1,6 @@
-/*Write a program to implement stack usinhg array in C++
- */
-/*Author :@haiderali780
+/*Write a program to implement stack using array in C++
+ 
+Author :@haiderali780
 
 Time:30 Jan,2022 _12:01
 */
