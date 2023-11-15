@@ -1,19 +1,19 @@
-/*Write a program to implement stack usinhg array in C++
-*/
-/*Author :@haiderali780
+/*Write a program to implement stack using array in C++
+ 
+Author :@haiderali780
 
 Time:30 Jan,2022 _12:01
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 class Stack
 {
 private:
-	int size;  // size of the stack
-	int* arr;  // pointer to dynamically allocated array to store elements of stack
-	int top;   // variable to store the index of top element of the stack
+	int size; // size of the stack
+	int *arr; // pointer to dynamically allocated array to store elements of stack
+	int top;  // variable to store the index of top element of the stack
 
 public:
 	// Constructor
@@ -30,7 +30,7 @@ public:
 		// if there is space in the stack, add the element
 		if (size - top > 1)
 		{
-			arr[++top]=element;
+			arr[++top] = element;
 			return;
 		}
 		// if stack is full, display error message
@@ -55,7 +55,7 @@ public:
 		// if stack is not empty, return the top element
 		if (top >= 0)
 			return arr[top];
-		
+
 		// if stack is empty, display error message and return -1
 		cout << "Stack is empty " << endl;
 		return -1;
@@ -65,7 +65,7 @@ public:
 	bool isEmty()
 	{
 		// return true if top is -1, indicating stack is empty
-		return (top==-1);
+		return (top == -1);
 	}
 
 	// Destructor
@@ -101,4 +101,3 @@ int main()
 
 	return 0;
 }
-
